@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tw-cf-container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.tw-cf-border-radius {
+  border-radius: 0.5rem;
+}
+
+.tw-cf-background-theme {
+  background: linear-gradient(
+    to right,
+    #f37335,
+    #fdc830
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tw-cf-color-theme {
+  color: inear-gradient(to right, #f37335, #fdc830);
+}
+
+.tw-cf-active-nav-list-theme {
+  background-color: white;
+  color: #fd7222;
+}

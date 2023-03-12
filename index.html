@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nội Thất - Ngoại Thất</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://topsaigon.vn/upload/data/images/logobanner/logo-1594889982.png"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div
+        class="tw-cf-container flex flex-wrap pb-10 justify-center md:py-2 md:justify-end"
+      >
+        <form class="inline-block border rounded-full m-3">
+          <div class="relative flex items-center">
+            <input
+              id="txtsearch"
+              type="text"
+              name="txtsearch"
+              placeholder="Tìm kiếm"
+              autocomplete="off"
+              class="pl-3 pr-9 rounded-full py-1"
+            />
+            <button
+              type="submit"
+              title="Tìm kiếm"
+              class="absolute right-0 flex-col justify-center items-center px-2"
+              id="buttonSearchHeader"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+            </button>
+          </div>
+        </form>
+        <ul class="flex justify-center items-center gap-1 ml-1 mr-5">
+          <li>
+            <a href="#"
+              ><span
+                class="bg-btn-color text-white hover:text-black text-xs p-1 rounded-md"
+                >Đăng thông tin miễn phí</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="#"
+              ><span
+                class="bg-btn-color text-white hover:text-black text-xs p-1 rounded-md"
+                >Đăng nhập</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="#"
+              ><span
+                class="bg-btn-color text-white hover:text-black text-xs p-1 rounded-md"
+                >Đăng ký</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- nav -->
+      <nav class="tw-cf-background-theme">
+        <div class="tw-cf-container">
+          <div class="md:grid md:grid-cols-12 mx-5 md:mx-0">
+            <!-- logo -->
+            <div class="flex justify-center md:col-span-2 relative">
+              <div class="md:absolute w-28 -top-[28px] left-[60px]">
+                <a href="https://topsaigon.vn/">
+                  <img
+                    src="https://topsaigon.vn/upload/data/images/logobanner/logo-1594889982.png"
+                  />
+                </a>
+              </div>
+            </div>
+            <!-- Danh mục -->
+            <div class="relative md:col-span-5 flex flex-col md:flex-row z-10">
+              <div
+                class="flex items-center justify-center md:justify-start w-full is-dirty peer my-3 md:my-0"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+                  />
+                </svg>
+                <a class="text-white uppercase" href="#">Danh Mục</a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6 text-white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+                  />
+                </svg>
+              </div>
+              <div class="absolute top-15 w-1/2 h-full is-dirty peer"></div>
+              <!-- box category -->
+              <div
+                class="block md:hidden md:absolute top-12 rounded p-2 bg-white border peer-[.is-dirty]:peer-hover:block hover:block"
+              >
+                <div
+                  class="h-1 tw-cf-background-theme"
+                  style="margin-top: 8px; margin-bottom: 8px"
+                ></div>
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/lam-dep.html"
+                  ><span style="margin-bottom: 6px">Làm Đẹp</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/thoi-trang.html"
+                  ><span style="margin-bottom: 6px">Thời Trang</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/nha-hang.html"
+                  ><span style="margin-bottom: 6px">Nhà Hàng</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/quan-cafe.html"
+                  ><span style="margin-bottom: 6px">Quán Cafe</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/am-thuc.html"
+                  ><span style="margin-bottom: 6px">Ẩm Thực</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/suc-khoe.html"
+                  ><span style="margin-bottom: 6px">Sức Khỏe</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/me-va-be.html"
+                  ><span style="margin-bottom: 6px">Mẹ và Bé</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/tinh-yeu.html"
+                  ><span style="margin-bottom: 6px">Tình Yêu</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/van-hoa.html"
+                  ><span style="margin-bottom: 6px">Văn Hóa</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/du-lich.html"
+                  ><span style="margin-bottom: 6px">Du Lịch</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/giai-tri.html"
+                  ><span style="margin-bottom: 6px">Giải Trí</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/the-thao.html"
+                  ><span style="margin-bottom: 6px">Thể Thao</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/thu-cung.html"
+                  ><span style="margin-bottom: 6px">Thú cưng</span></a
+                >
+                <div
+                  class="h-1 tw-cf-background-theme"
+                  style="margin-top: 8px; margin-bottom: 8px"
+                ></div>
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/bat-dong-san.html"
+                  ><span style="margin-bottom: 6px">Bất Động Sản</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/xay-dung.html"
+                  ><span style="margin-bottom: 6px">Xây Dựng</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/vat-lieu.html"
+                  ><span style="margin-bottom: 6px">Vật Liệu</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/noi-that-ngoai-that.html"
+                  ><span style="margin-bottom: 6px"
+                    >Nội Thất - Ngoại Thất</span
+                  ></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/co-khi.html"
+                  ><span style="margin-bottom: 6px">Cơ Khí</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/may-moc.html"
+                  ><span style="margin-bottom: 6px">Máy Móc</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/nha-cua.html"
+                  ><span style="margin-bottom: 6px">Nhà cửa</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/dich-vu-khac.html"
+                  ><span style="margin-bottom: 6px">Dịch Vụ Khác</span></a
+                >
+                <div
+                  class="h-1 tw-cf-background-theme"
+                  style="margin-top: 8px; margin-bottom: 8px"
+                ></div>
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/cong-nghe-thong-tin.html"
+                  ><span style="margin-bottom: 6px"
+                    >Công Nghệ Thông Tin</span
+                  ></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/dien-may-dien-tu.html"
+                  ><span style="margin-bottom: 6px">Điện Máy - Điện Tử</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/may-tinh-may-in.html"
+                  ><span style="margin-bottom: 6px">Máy Tính - Máy In</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/dien-thoai.html"
+                  ><span style="margin-bottom: 6px">Điện Thoại</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/linh-kien-phu-kien.html"
+                  ><span style="margin-bottom: 6px"
+                    >Linh Kiện - Phụ Kiện</span
+                  ></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/o-to.html"
+                  ><span style="margin-bottom: 6px">Ô tô</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/xe-may-xe-dap.html"
+                  ><span style="margin-bottom: 6px">Xe Máy - Xe Đạp</span></a
+                >
+
+                <a
+                  class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+                  href="https://topsaigon.vn/thiet-bi.html"
+                  ><span style="margin-bottom: 6px">Thiết Bị</span></a
+                >
+                <div
+                  class="h-1 tw-cf-background-theme"
+                  style="margin-top: 8px; margin-bottom: 8px"
+                ></div>
+              </div>
+            </div>
+            <!-- Form search -->
+            <div class="md:col-span-5 flex flex-col md:flex-row gap-5 py-3">
+              <div class="flex-1">
+                <select
+                  class="rounded-md py-1 w-full"
+                  id="category"
+                  name="category"
+                >
+                  <option value="tops">--Tìm Top--</option>
+                  <option value="lam-dep">Làm Đẹp</option>
+                  <option value="thoi-trang">Thời Trang</option>
+                  <option value="nha-hang">Nhà Hàng</option>
+                  <option value="quan-cafe">Quán Cafe</option>
+                  <option value="am-thuc">Ẩm Thực</option>
+                  <option value="suc-khoe">Sức Khỏe</option>
+                  <option value="me-va-be">Mẹ và Bé</option>
+                  <option value="tinh-yeu">Tình Yêu</option>
+                  <option value="van-hoa">Văn Hóa</option>
+                  <option value="du-lich">Du Lịch</option>
+                  <option value="giai-tri">Giải Trí</option>
+                  <option value="the-thao">Thể Thao</option>
+                  <option value="bat-dong-san">Bất Động Sản</option>
+                  <option value="xay-dung">Xây Dựng</option>
+                  <option value="vat-lieu">Vật Liệu</option>
+                  <option value="noi-that-ngoai-that">
+                    Nội Thất - Ngoại Thất
+                  </option>
+                  <option value="co-khi">Cơ Khí</option>
+                  <option value="may-moc">Máy Móc</option>
+                  <option value="cong-nghe-thong-tin">
+                    Công Nghệ Thông Tin
+                  </option>
+                  <option value="dien-may-dien-tu">Điện Máy - Điện Tử</option>
+                  <option value="may-tinh-may-in">Máy Tính - Máy In</option>
+                  <option value="dien-thoai">Điện Thoại</option>
+                  <option value="linh-kien-phu-kien">
+                    Linh Kiện - Phụ Kiện
+                  </option>
+                  <option value="o-to">Ô tô</option>
+                  <option value="xe-may-xe-dap">Xe Máy - Xe Đạp</option>
+                  <option value="dich-vu-khac">Dịch Vụ Khác</option>
+                  <option value="thiet-bi">Thiết bị</option>
+                  <option value="nha-cua">Nhà cửa</option>
+                  <option value="thu-cung">Thú cưng</option>
+                </select>
+              </div>
+              <div class="flex-1">
+                <select
+                  class="rounded-md py-1 w-full"
+                  id="ddlCity"
+                  name="ddlCity"
+                >
+                  <option value="tat-ca">-- Quận/huyện --</option>
+                  <option data="nha-be" value="nha-be">Nhà Bè</option>
+                  <option data="hoc-mon" value="hoc-mon">Hóc Môn</option>
+                  <option data="cu-chi" value="cu-chi">Củ Chi</option>
+                  <option data="can-gio" value="can-gio">Cần Giờ</option>
+                  <option data="binh-chanh" value="binh-chanh">
+                    Bình Chánh
+                  </option>
+                  <option data="thu-duc" value="thu-duc">Thủ Đức</option>
+                  <option data="tan-phu" value="tan-phu">Tân Phú</option>
+                  <option data="tan-binh" value="tan-binh">Tân Bình</option>
+                  <option data="phu-nhuan" value="phu-nhuan">Phú Nhuận</option>
+                  <option data="go-vap" value="go-vap">Gò Vấp</option>
+                  <option data="binh-thanh" value="binh-thanh">
+                    Bình Thạnh
+                  </option>
+                  <option data="binh-tan" value="binh-tan">Bình Tân</option>
+                  <option data="quan-12" value="quan-12">Quận 12</option>
+                  <option data="quan-11" value="quan-11">Quận 11</option>
+                  <option data="quan-10" value="quan-10">Quận 10</option>
+                  <option data="quan-9" value="quan-9">Quận 9</option>
+                  <option data="quan-8" value="quan-8">Quận 8</option>
+                  <option data="quan-7" value="quan-7">Quận 7</option>
+                  <option data="quan-6" value="quan-6">Quận 6</option>
+                  <option data="quan-5" value="quan-5">Quận 5</option>
+                  <option data="quan-4" value="quan-4">Quận 4</option>
+                  <option data="quan-3" value="quan-3">Quận 3</option>
+                  <option data="quan-2" value="quan-2">Quận 2</option>
+                  <option data="quan-1" value="quan-1">Quận 1</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- banner -->
+    <section class="py-4 mx-4 md:mx-0">
+      <div class="tw-cf-container md:flex gap-4">
+        <!-- banner -->
+        <div class="flex-1">
+          <div class="relative">
+            <img
+              class="w-full"
+              src="https://topsaigon.vn/upload/data/images/slide/no__1_-1595241237.jpg"
+              alt="Top 8 salon làm tóc nữ đẹp nhất quận 1"
+            />
+            <div
+              style="background: rgba(19, 19, 19, 0.5)"
+              class="absolute bottom-0 left-0 right-0 text-white flex justify-center items-center"
+            >
+              <h4 class="text-lg font-semibold py-5 leading-7">
+                <a href="#">Top 8 salon làm tóc nữ đẹp nhất quận 1</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- product list popular  -->
+        <div class="flex-1 mt-4 md:mt-0">
+          <div class="grid grid-cols-4 gap-4 mb-4">
+            <a
+              href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+              title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              class="col-span-1"
+            >
+              <img
+                src="https://topsaigon.vn/upload/data/images/slide/qgv-18-1611049353.jpg"
+                alt="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              />
+            </a>
+            <div class="col-span-3">
+              <h4 class="text-base leading-6 font-semibold">
+                <a
+                  href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+                  title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+                  >Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng
+                  ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng ngon nổi tiếng ở
+                  Quận Gò Vấp</a
+                >
+              </h4>
+            </div>
+          </div>
+          <div class="grid grid-cols-4 gap-4 mb-4">
+            <a
+              href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+              title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              class="col-span-1"
+            >
+              <img
+                src="https://topsaigon.vn/upload/data/images/slide/qgv-18-1611049353.jpg"
+                alt="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              />
+            </a>
+            <div class="col-span-3">
+              <h4 class="text-base leading-6 font-semibold">
+                <a
+                  href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+                  title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+                  >Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng
+                  ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng ngon nổi tiếng ở
+                  Quận Gò Vấp</a
+                >
+              </h4>
+            </div>
+          </div>
+          <div class="grid grid-cols-4 gap-4 mb-4">
+            <a
+              href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+              title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              class="col-span-1"
+            >
+              <img
+                src="https://topsaigon.vn/upload/data/images/slide/qgv-18-1611049353.jpg"
+                alt="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              />
+            </a>
+            <div class="col-span-3">
+              <h4 class="text-base leading-6 font-semibold">
+                <a
+                  href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+                  title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+                  >Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng
+                  ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng ngon nổi tiếng ở
+                  Quận Gò Vấp</a
+                >
+              </h4>
+            </div>
+          </div>
+          <div class="grid grid-cols-4 gap-4 mb-4">
+            <a
+              href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+              title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              class="col-span-1"
+            >
+              <img
+                src="https://topsaigon.vn/upload/data/images/slide/qgv-18-1611049353.jpg"
+                alt="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+              />
+            </a>
+            <div class="col-span-3">
+              <h4 class="text-base leading-6 font-semibold">
+                <a
+                  href="https://topsaigon.vn/top-10-nha-hang-ngon-noi-tieng-o-quan-go-vap-56.html"
+                  title="Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp"
+                  >Top 10 Nhà hàng ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng
+                  ngon nổi tiếng ở Quận Gò Vấp Top 10 Nhà hàng ngon nổi tiếng ở
+                  Quận Gò Vấp</a
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Story and Theme list -->
+    <section class="mx-4 md:mx-0">
+      <div class="tw-cf-container grid grid-cols-12 gap-3">
+        <div class="col-span-12 md:col-span-8">
+          <!-- posts item -->
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+          <div class="tw-cf-container flex gap-2 pb-3">
+            <div>
+              <img
+                src="https://topsaigon.vn/upload/data/images/product/medium/q1-1595210757jpg.jpg"
+              />
+            </div>
+            <div>
+              <a
+                class="font-semibold"
+                href="https://topsaigon.vn/top-6-salon-toc-nu-sieu-dep-chat-luong-quan-4-4.html"
+                >Top 6 Salon tóc Nữ siêu đẹp chất lượng quận 4</a
+              >
+              <div
+                class="text-muted"
+                style="
+                  display: table-cell;
+                  vertical-align: middle;
+                  line-height: 25px;
+                "
+              >
+                <div class="flex items-center gap-2">
+                  <p>20/07/2020</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                    />
+                  </svg>
+                  <p>12518</p>
+                </div>
+              </div>
+              <p class="hidden-xs font-extralight">
+                Tóc cũng có nhiều loại, sợi dày, sợi mỏng, tóc cần được chăm sóc
+                và bảo vệ để được bồng bềnh và khỏe mạnh vậy nên chị em phụ nữ
+                thường tìm đến các salon…
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-span-12 md:col-span-4">
+          <!-- Danh sách chủ đề -->
+          <div class="border bg-slate-50">
+            <p class="p-[10px] font-semibold text-lg border-b">
+              Danh sách chủ đề
+            </p>
+            <!-- start theme -->
+            <div
+              class="bg-color-list-theme-1 grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-white">01</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8 text-white">
+                Top 7 salon tóc Nữ đẹp quận Tân Phú
+              </h4>
+            </div>
+            <div
+              class="bg-color-list-theme-2 grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-white">02</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8 text-white">
+                Top 7 salon tóc Nữ đẹp quận Tân Phú
+              </h4>
+            </div>
+            <div
+              class="bg-color-list-theme-3 grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-white">03</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8 text-white">
+                Top 7 salon tóc Nữ đẹp quận Tân Phú
+              </h4>
+            </div>
+            <div
+              class="bg-color-list-theme grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-black">04</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8 text-black">
+                Top 7 salon tóc Nữ đẹp quận Tân Phú
+              </h4>
+            </div>
+            <div
+              class="bg-color-list-theme grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-black">05</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8 text-black">
+                Top 7 salon tóc Nữ đẹp quận Tân Phú
+              </h4>
+            </div>
+            <div
+              class="bg-color-list-theme grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-black">06</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8 text-black">
+                Top 7 salon tóc Nữ đẹp quận Tân Phú
+              </h4>
+            </div>
+          </div>
+          <!-- Top chủ đề -->
+          <div class="border bg-slate-50 mt-10">
+            <p
+              class="p-[10px] font-semibold text-lg border-b-2 border-b-color-list-theme-1"
+            >
+              Danh sách chủ đề
+            </p>
+            <!-- nav list theme -->
+            <!-- <label for="week" class="peer-checked/week:text-sky-500"
+              >week</label
+              >
+              
+              <label for="month" class="peer-checked/month:text-sky-500"
+              >month</label
+              >
+              <label for="year" class="peer-checked/year:text-sky-500"
+              >year</label
+              > -->
+
+            <ul
+              class="grid grid-cols-3 place-items-center place-content-center select-none"
+            >
+              <!-- change nav list theme with label input -->
+              <input
+                id="week"
+                class="peer/week"
+                type="radio"
+                name="status"
+                checked
+                hidden
+              />
+              <input
+                id="month"
+                class="peer/month"
+                type="radio"
+                name="status"
+                hidden
+              />
+              <input
+                id="year"
+                class="peer/year"
+                type="radio"
+                name="status"
+                hidden
+              />
+              <label
+                for="week"
+                class="bg-[#e8e8e8] text-[#aaa6a4] border w-full h-10 border-r-gray-300 flex justify-center items-center peer-checked/week:text-color-list-theme-1 peer-checked/week:bg-white"
+              >
+                Tuần
+              </label>
+              <label
+                for="month"
+                class="bg-[#e8e8e8] text-[#aaa6a4] select-none border w-full h-10 border-r-gray-300 flex justify-center items-center peer-checked/month:text-color-list-theme-1 peer-checked/month:bg-white"
+              >
+                Tháng
+              </label>
+              <label
+                for="year"
+                class="bg-[#e8e8e8] text-[#aaa6a4] border w-full h-10 border-r-gray-300 flex justify-center items-center peer-checked/year:text-color-list-theme-1 peer-checked/year:bg-white"
+              >
+                Năm
+              </label>
+            </ul>
+            <!-- start theme -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-[#f52021]">1</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-[#26a20f]">2</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold text-[#ffba00]">3</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold">4</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold">5</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold">6</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold">7</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold">8</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+            <!--  -->
+            <div
+              class="grid grid-cols-12 py-5 items-center justify-center gap-2 px-2 border-b"
+            >
+              <p class="col-span-1 text-2xl font-bold">9</p>
+              <img
+                class="col-span-3 w-full h-full"
+                src="https://topsaigon.vn/upload/data/images/product/medium/tt4-1595382838jpg.jpg"
+              />
+              <h4 class="col-span-8">Top 7 salon tóc Nữ đẹp quận Tân Phú</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Toplist liên quan -->
+    <section class="pt-20 mx-4 md:mx-0">
+      <div class="tw-cf-container">
+        <h1 class="text-xl">Toplist liên quan</h1>
+        <div class="border-b-2 border-b-color-list-theme-1 w-full py-1"></div>
+        <!-- box category -->
+        <div
+          class="rounded p-2 bg-white grid grid-rows-3 md:grid-rows-1 md:grid-cols-3 gap-6 my-5"
+        >
+          <div
+            class="border-b-4 border-b-color-list-theme-3 md:border-b-0 pb-5 md:pb-0 md:border-r-4 md:border-r-color-list-theme-3 flex flex-wrap gap-2"
+          >
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/lam-dep.html"
+              ><span style="margin-bottom: 6px">Làm Đẹp</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/thoi-trang.html"
+              ><span style="margin-bottom: 6px">Thời Trang</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/nha-hang.html"
+              ><span style="margin-bottom: 6px">Nhà Hàng</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/quan-cafe.html"
+              ><span style="margin-bottom: 6px">Quán Cafe</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/am-thuc.html"
+              ><span style="margin-bottom: 6px">Ẩm Thực</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/suc-khoe.html"
+              ><span style="margin-bottom: 6px">Sức Khỏe</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/me-va-be.html"
+              ><span style="margin-bottom: 6px">Mẹ và Bé</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/tinh-yeu.html"
+              ><span style="margin-bottom: 6px">Tình Yêu</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/van-hoa.html"
+              ><span style="margin-bottom: 6px">Văn Hóa</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/du-lich.html"
+              ><span style="margin-bottom: 6px">Du Lịch</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/giai-tri.html"
+              ><span style="margin-bottom: 6px">Giải Trí</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/the-thao.html"
+              ><span style="margin-bottom: 6px">Thể Thao</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/thu-cung.html"
+              ><span style="margin-bottom: 6px">Thú cưng</span></a
+            >
+          </div>
+          <div
+            class="border-b-4 border-b-color-list-theme-3 md:border-b-0 pb-5 md:pb-0 md:border-r-4 md:border-r-color-list-theme-3 flex flex-wrap gap-2"
+          >
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/bat-dong-san.html"
+              ><span style="margin-bottom: 6px">Bất Động Sản</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/xay-dung.html"
+              ><span style="margin-bottom: 6px">Xây Dựng</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/vat-lieu.html"
+              ><span style="margin-bottom: 6px">Vật Liệu</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/noi-that-ngoai-that.html"
+              ><span style="margin-bottom: 6px">Nội Thất - Ngoại Thất</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/co-khi.html"
+              ><span style="margin-bottom: 6px">Cơ Khí</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/may-moc.html"
+              ><span style="margin-bottom: 6px">Máy Móc</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/nha-cua.html"
+              ><span style="margin-bottom: 6px">Nhà cửa</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/dich-vu-khac.html"
+              ><span style="margin-bottom: 6px">Dịch Vụ Khác</span></a
+            >
+          </div>
+          <div
+            class="border-b-4 border-b-color-list-theme-3 md:border-b-0 pb-5 md:pb-0 md:border-r-4 md:border-r-color-list-theme-3 flex flex-wrap gap-2"
+          >
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/cong-nghe-thong-tin.html"
+              ><span style="margin-bottom: 6px">Công Nghệ Thông Tin</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/dien-may-dien-tu.html"
+              ><span style="margin-bottom: 6px">Điện Máy - Điện Tử</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/may-tinh-may-in.html"
+              ><span style="margin-bottom: 6px">Máy Tính - Máy In</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/dien-thoai.html"
+              ><span style="margin-bottom: 6px">Điện Thoại</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/linh-kien-phu-kien.html"
+              ><span style="margin-bottom: 6px">Linh Kiện - Phụ Kiện</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/o-to.html"
+              ><span style="margin-bottom: 6px">Ô tô</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/xe-may-xe-dap.html"
+              ><span style="margin-bottom: 6px">Xe Máy - Xe Đạp</span></a
+            >
+
+            <a
+              class="bg-label-success text-white px-1 uppercase text-sm rounded-sm"
+              href="https://topsaigon.vn/thiet-bi.html"
+              ><span style="margin-bottom: 6px">Thiết Bị</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-[#f8f8f8]">
+      <!-- top footer -->
+      <div class="border p-4 md:p-0 md:pr-4">
+        <div class="tw-cf-container">
+          <ul
+            class="flex flex-col md:flex-row justify-end gap-4 text-[#777] py-3"
+          >
+            <li class="hover:text-black"><a href="#">Hướng dẫn</a></li>
+            <li class="hover:text-black"><a href="#">Giới thiệu</a></li>
+            <li class="hover:text-black"><a href="#">Fan page</a></li>
+            <li class="hover:text-black"><a href="#">Chủ đề</a></li>
+            <li class="hover:text-black"><a href="#">Liên hệ</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- bot footer -->
+      <div class="tw-cf-container py-8 p-4 md:p-0">
+        <p>
+          <span class="text-lg"
+            ><b>CÔNG TY CỔ PHẦN PHÁT TRIỂN CÔNG NGHỆ SÀI GÒN WEB&nbsp;</b></span
+          >
+        </p>
+
+        <p>
+          <span class="text-base"
+            >Giấy phép kinh doanh&nbsp; &nbsp; : 0310667629<br />
+            Địa chỉ: 373 Lý Thường Kiệt, Phường 9, Quận Tân Bình, Tp.HCM<br />
+            <br />
+            Liên hệ đăng bài ( call / zalo ):&nbsp;0909 357 789</span
+          ><br />
+          &nbsp;
+        </p>
+
+        <p class="flex justify-center">
+          <a
+            class="dmca-badge"
+            href="https://www.dmca.com/Protection/Status.aspx?ID=50cde2e8-7632-44b7-b4ef-86187cd05064&amp;refurl=https://topsaigon.vn/"
+            title="DMCA.com Protection Status"
+            ><img
+              alt="DMCA.com Protection Status"
+              src="https://images.dmca.com/Badges/dmca_protected_16_120.png?ID=50cde2e8-7632-44b7-b4ef-86187cd05064" /></a
+          >&nbsp;
+          <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
